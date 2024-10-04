@@ -1,0 +1,25 @@
+/* header{
+    background-color: aquamarine;
+    box-shadow: 20px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6xl;
+    margin: auto;
+}
+
+.logo-heading{
+    font: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-1{
+    color: red;
+}
+.logo-2{
+    color: yellow;
+} */
