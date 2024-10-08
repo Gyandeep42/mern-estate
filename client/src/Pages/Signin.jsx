@@ -3,7 +3,7 @@
 export default function Signin() {
   return (
     <div>
-        signup
+      signin
     </div>
   )
 }

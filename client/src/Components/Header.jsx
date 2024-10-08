@@ -11,7 +11,7 @@ export default function Header() {
         <span className="text-slate-700">ESTATE</span>
       </h1>
       </Link>
-      <form className="bg-slate-100 rounded-lg flex items-center">
+      <form className="bg-slate-100 rounded-lg flex items-center h-7 py-3">
         <input type="text" placeholder='Search...' className='bg-transparent focus:outline-none w-24 sm:w-64' />
         <FaSearch className="text-stone-600"/>
 
