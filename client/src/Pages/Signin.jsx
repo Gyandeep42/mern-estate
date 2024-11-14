@@ -3,6 +3,7 @@ import '../css/Signin.css'
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { signInStart, signInSuccess, signInFailure } from '../redux/user/userSlice';
+import OAuth from '../Components/OAuth';
 
 export default function Signin() {
   const [formData, setFormData] = useState({});
@@ -71,6 +72,7 @@ export default function Signin() {
             <button disabled={loading} className='signup-button' type="submit">
               {loading ? 'Loading...':'Sign in'}
             </button>
+            <OAuth/>
           </form>
           <div className='flex gap-2 mt-5 flex justify-center'>
             <p>Dont have an Account?</p>

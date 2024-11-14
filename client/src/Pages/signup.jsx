@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom'
 import '../css/Signin.css'
 import { useState } from 'react';
+import OAuth from '../Components/OAuth';
 
 export default function Signup() {
   const [formData, setFormData] = useState({});
@@ -71,6 +72,7 @@ export default function Signup() {
             <button disabled={loading} className='signup-button' type="submit">
               {loading ? 'Loading...':'Sign Up'}
             </button>
+            <OAuth/>
           </form>
           <div className='flex gap-2 mt-5 flex justify-center'>
             <p>Have an Account?</p>
